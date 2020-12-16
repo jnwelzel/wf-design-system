@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "@emotion/styled";
+import styled from "@emotion/styled/macro";
 import { Button } from "./Button";
 import { Icon } from "./Icon";
 import { StoryLinkWrapper } from "./StoryLinkWrapper";

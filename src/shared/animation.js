@@ -1,5 +1,5 @@
 // Handy CSS animations for micro-interactions
-import { css, keyframes } from "@emotion/react";
+import { css, keyframes } from "@emotion/react/macro";
 import { color } from "./styles";
 
 export const easing = {

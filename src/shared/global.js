@@ -1,4 +1,4 @@
-import { css } from "@emotion/react";
+import { css } from "@emotion/react/macro";
 import { color, typography } from "./styles";
 
 export const fontUrl =

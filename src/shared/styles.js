@@ -1,4 +1,4 @@
-import { css } from "@emotion/react";
+import { css } from "@emotion/react/macro";
 
 // Global style variables
 export const background = {
