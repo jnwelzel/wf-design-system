@@ -7,7 +7,7 @@
   "repository": "https://github.com/jnwelzel/wf-design-system.git",
   "author": "Jon Welzel <jnwelzel@gmail.com>",
   "license": "MIT",
-  "peerDependencies": {
+  "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
