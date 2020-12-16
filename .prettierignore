@@ -1,0 +1,23 @@
+bower_components
+.vscode
+error-shots
+*.env
+!.sample.*.env
+node_modules
+.DS_Store
+*.log
+.eslintcache
+
+# build output
+dist
+dist-test
+test-reports
+
+#storybook
+.storybook/preview-head.html
+storybook-static/favicon.ico
+
+storybook-static
+
+# graphql
+schema.graphql

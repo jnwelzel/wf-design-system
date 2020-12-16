@@ -1,14 +1,21 @@
-import React from 'react';
+import React from "react";
+import { Global, css } from "@emotion/react";
 
-import { GlobalStyle } from '../src/shared/global';
+import { bodyStyles } from "../src/shared/global";
 
 export const decorators = [
   (Story) => (
     <>
-      <GlobalStyle />
+      <Global
+        styles={css`
+          body {
+            ${bodyStyles}
+          }
+        `}
+      />
       <Story />
     </>
-  )
+  ),
 ];
 
 export const parameters = {
@@ -16,8 +23,8 @@ export const parameters = {
   // Storybook a11y addon configuration
   a11y: {
     // the target DOM element
-    element: '#root',
+    element: "#root",
     // sets the execution mode for the addon
     manual: false,
   },
-}
+};
