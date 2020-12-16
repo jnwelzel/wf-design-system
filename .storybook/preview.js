@@ -1,5 +1,5 @@
 import React from "react";
-import { Global, css } from "@emotion/react/macro";
+import { Global, css } from "@emotion/react";
 
 import { bodyStyles } from "../src/shared/global";
 

@@ -2081,7 +2081,7 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
 
-"@emotion/babel-plugin@^11.0.0", "@emotion/babel-plugin@^11.1.2":
+"@emotion/babel-plugin@^11.0.0":
   version "11.1.2"
   resolved "https://registry.yarnpkg.com/@emotion/babel-plugin/-/babel-plugin-11.1.2.tgz#68fe1aa3130099161036858c64ee92056c6730b7"
   integrity sha512-Nz1k7b11dWw8Nw4Z1R99A9mlB6C6rRsCtZnwNUOj4NsoZdrO2f2A/83ST7htJORD5zpOiLKY59aJN23092949w==
@@ -5240,6 +5240,11 @@ babel-plugin-emotion@^10.0.20, babel-plugin-emotion@^10.0.27:
     escape-string-regexp "^1.0.5"
     find-root "^1.1.0"
     source-map "^0.5.7"
+
+babel-plugin-emotion@^11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-emotion/-/babel-plugin-emotion-11.0.0.tgz#f362c9fe05493821ab8995cd5a8e7be6504b73a9"
+  integrity sha512-cVD32sIXlidaqQBr7vw0uD2o58uBeD8jILDJ2yAGT1fOmgYcE5iX27bTVMV6meiUZarIAh1iAyTqrEWV+V2dqQ==
 
 babel-plugin-extract-import-names@1.6.18:
   version "1.6.18"
