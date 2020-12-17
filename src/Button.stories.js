@@ -1,8 +1,8 @@
-import React from 'react';
-import styled from 'styled-components';
-import { Button } from './Button';
-import { Icon } from './Icon';
-import { StoryLinkWrapper } from './StoryLinkWrapper';
+import React from "react";
+import { styled } from "@linaria/react";
+import { Button } from "./Button";
+import { Icon } from "./Icon";
+import { StoryLinkWrapper } from "./StoryLinkWrapper";
 
 const CustomButton = styled.button`
   border: 1px solid green;
@@ -17,7 +17,7 @@ function ButtonWrapper(props) {
 }
 
 export default {
-  title: 'Design System/Button',
+  title: "Design System/Button",
   component: Button,
 };
 
@@ -74,7 +74,7 @@ export const AllButtons = (args) => (
   </div>
 );
 
-AllButtons.storyName = 'all buttons';
+AllButtons.storyName = "all buttons";
 
 export const buttonWrapper = (args) => (
   <div>
@@ -158,7 +158,7 @@ export const buttonWrapper = (args) => (
   </div>
 );
 
-buttonWrapper.storyName = 'button wrapper';
+buttonWrapper.storyName = "button wrapper";
 
 export const AnchorWrapper = (args) => (
   <div>
@@ -321,4 +321,4 @@ export const AnchorWrapper = (args) => (
   </div>
 );
 
-AnchorWrapper.storyName = 'anchor wrapper';
+AnchorWrapper.storyName = "anchor wrapper";
