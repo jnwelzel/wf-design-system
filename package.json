@@ -8,6 +8,10 @@
   "author": "Jon Welzel <jnwelzel@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@linaria/babel-preset": "^3.0.0-beta.1",
+    "@linaria/core": "^3.0.0-beta.1",
+    "@linaria/react": "^3.0.0-beta.1",
+    "@linaria/shaker": "^3.0.0-beta.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
@@ -37,6 +41,7 @@
   "devDependencies": {
     "@babel/cli": "^7.11.6",
     "@babel/core": "^7.11.6",
+    "@linaria/webpack-loader": "^3.0.0-beta.1",
     "@storybook/addon-a11y": "^6.0.21",
     "@storybook/addon-actions": "^6.0.21",
     "@storybook/addon-essentials": "^6.0.21",
