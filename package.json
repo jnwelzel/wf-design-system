@@ -13,7 +13,7 @@
   },
   "scripts": {
     "build": "cross-env BABEL_ENV=production babel src -d dist",
-    "test": "react-scripts test",
+    "test": "react-app-rewired test --env=jsdom",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "build-storybook-docs": "build-storybook -s public --docs",
@@ -34,16 +34,6 @@
       "last 1 safari version"
     ]
   },
-  "babel": {
-    "presets": [
-      [
-        "react-app",
-        {
-          "absoluteRuntime": false
-        }
-      ]
-    ]
-  },
   "devDependencies": {
     "@babel/cli": "^7.11.6",
     "@babel/core": "^7.11.6",
@@ -61,9 +51,11 @@
     "babel-loader": "^8.1.0",
     "chromatic": "^5.2.0",
     "cross-env": "^7.0.2",
+    "customize-cra": "^1.0.0",
     "polished": "^3.6.6",
     "prettier": "^2.2.1",
     "prop-types": "^15.7.2",
+    "react-app-rewired": "^2.1.8",
     "react-is": "^16.13.1",
     "react-scripts": "3.4.3",
     "styled-components": "^5.2.0",
