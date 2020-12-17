@@ -4,7 +4,8 @@ const { useBabelRc, override, addWebpackModuleRule } = require("customize-cra");
 module.exports = override(
   useBabelRc(),
   addWebpackModuleRule({
-    test: /\.(js|tsx)$/,
+    test: /\.js$/,
+    exclude: [/node_modules/],
     use: [
       { loader: "babel-loader" },
       {

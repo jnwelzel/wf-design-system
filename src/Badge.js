@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import styled from "@linaria/react";
+import { styled } from "@linaria/react";
 import { css } from "@linaria/core";
 import { background, color, typography } from "./shared/styles";
 

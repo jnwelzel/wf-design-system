@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import styled from "@linaria/react";
+import { styled } from "@linaria/react";
 import { css } from "@linaria/core";
 
 import { Icon } from "./Icon";

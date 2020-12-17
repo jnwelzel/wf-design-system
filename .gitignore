@@ -24,3 +24,4 @@ yarn-error.log*
 build-storybook.log
 dist
 .env
+/src/.linaria_cache
